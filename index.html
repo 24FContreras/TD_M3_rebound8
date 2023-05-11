@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Módulo 3, sesión 8: UTILIZANDO DESTRUCTURING Y EL OPERADOR SPREAD
+    </title>
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- FONT AWESOME KIT -->
+    <script
+      src="https://kit.fontawesome.com/1872a23027.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <h1>Reserva una hora</h1>
+
+      <form id="formulario">
+        <section class="input-group">
+          <div class="input input-nombre">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="nombre" />
+          </div>
+          <div class="input input-apellido">
+            <label for="apellido">Apellido</label>
+            <input
+              type="text"
+              name="apellido"
+              id="apellido"
+              placeholder="apellido"
+            />
+          </div>
+          <div class="input input-correo">
+            <label for="correo"
+              >Correo <span>(te notificaremos aquí)</span></label
+            >
+            <input
+              type="email"
+              name="correo"
+              id="correo"
+              placeholder="tu@ejemplo.com"
+            />
+          </div>
+          <div class="input input-edad">
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad" />
+          </div>
+          <div class="input input-fecha">
+            <label for="fecha">Fecha</label>
+            <input type="date" name="fecha" id="fecha" />
+          </div>
+        </section>
+
+        <button id="btn" class="btn">Enviar</button>
+      </form>
+    </main>
+    <!-- SCRIPTS -->
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
